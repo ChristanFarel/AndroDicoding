@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    >
+
+<ImageView
+    android:id="@+id/Img_kecil"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginRight="10dp"
+    tools:src="@tools:sample/avatars"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/namaBarang"
+            android:id="@+id/txtNamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nama Barang" />
+
+        <TextView
+            android:id="@+id/txtHarga"
+            style="@style/hargaDepan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Harga" />
+
+        <TextView
+            android:id="@+id/txtDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="Deskripsi jaskndjkasdjas jadaajsd pasojdas kasljdasdassd jalsjdklasjdkasjkldjaskldjkasljk lasd jaskljdaksljdaksljd" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
